@@ -1,19 +1,20 @@
 import React from 'react';
 
-import Login from './Login';
+import './App.css';
+import SignUp from './SignUp';
 
-
-const App = () => {
+function App() {
   return (
-    <div className="app-container">
-      {/* Include your food picture here */}
-      <div className="background-image"></div>
+       
 
-      {/* Render Login and SignUp components */}
-      <Login />
-      
+    <div className="app-container">
+    
+      <div className="background-image">
     </div>
+          <SignUp/> 
+      </div> 
+    
   );
-};
+}
 
 export default App;

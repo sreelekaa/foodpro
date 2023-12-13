@@ -11,7 +11,7 @@
 }
 
 .background-image {
-  background-image: url('D:\Project\login\fries.jpg');
+  background-image: url('D:\Project\signup\pizza.jpg');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -35,7 +35,7 @@
 }
 
 /* Style for the login and signup containers */
-.login-container,
+
 .signup-container {
   background-color: white;
   padding: 20px;
@@ -80,19 +80,26 @@ button:hover {
   background-color: #45a049; /* Darker color on hover */
 }
 
+/* Style for the terms and conditions checkbox */
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
 
 /* Style for the link to the login page */
-.login-container p {
+.signup-container p {
   margin-top: 10px;
   font-size: 14px;
 }
 
-.login-container a {
+.signup-container a {
   color: #4caf50;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.login-container a:hover {
+.signup-container a:hover {
   color: #45a049;
 }
