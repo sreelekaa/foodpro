@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Style for the overall app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Style for the background image */
+.background-image {
+  background-image: url('D:\foodproject\fapp\src\assets\fries.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the background behind the login and sign-up forms */
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+
+/* Style for the login and signup containers */
+.login-container,
+.signup-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50; /* Use a unique theme color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker color on hover */
+}
